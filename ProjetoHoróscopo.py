@@ -1,6 +1,11 @@
 print('\t\t\n---HORÓSCOPO---\n\t\t')
 dia = int(input('Informe o dia em que nasceu: \n'))
 mes = int(input('Agora digite o mês: \n'))
+
+# parabéns pelo desenvolvimento
+#  o código funciona muito bem!
+# Segue o Plano!
+
 if mes == 12 and 31>= dia >= 22 or mes == 1 and 31>= dia <=19:
     print('Você é do signo Capricórnio!')
 if mes == 1 and 31>= dia >= 20 or mes == 2 and 29>= dia <=18:
